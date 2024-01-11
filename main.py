@@ -15,7 +15,7 @@ def prokrytka(skolko_nad):
         driver.execute_script(scroll_by)
     all = driver.find_elements(By.CLASS_NAME, 'product-card__wrapper')
     return all
-q = input('Что хотите запарстиь?')
+q = input('Что хотите запарстиь? ')
 
 while all != b:
             u = u + 1
